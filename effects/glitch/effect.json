@@ -1,0 +1,30 @@
+{
+  "name": "glitch",
+  "title": "Glitch",
+  "line": "The frame breaks apart for a split second on a word or a cut, with an optional uninstall or progress bar that breaks with it",
+  "card": "The frame breaks apart on a word",
+  "do": "add a glitch to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add a glitch",
+    "glitch the frame on the word that matters",
+    "a glitch on every cut",
+    "add an uninstalling bar that glitches out",
+    "a loading bar that breaks the video"
+  ],
+  "options": {
+    "at": "auto",
+    "strength": "medium",
+    "bar": "off",
+    "sound": "on"
+  },
+  "type_this": "/video-editing glitch my-video.mp4",
+  "askeditor": {
+    "what": "Add a Glitch hook on my key word",
+    "why": "move the glitch to another word or change its words on the canvas, without rendering again"
+  }
+}

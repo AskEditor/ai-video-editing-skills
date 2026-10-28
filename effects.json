@@ -1,0 +1,1542 @@
+[
+  {
+    "name": "backdrop",
+    "title": "New backdrop",
+    "line": "You cut out and set in a new room: a colour, your pictures changing on each idea, a grid of four, or your screens in depth",
+    "card": "Cut out of your room, set somewhere new",
+    "do": "put a new backdrop behind me in",
+    "category": "behind-you",
+    "needs": [
+      "person",
+      "words",
+      "face"
+    ],
+    "say": [
+      "replace my background",
+      "put me on a plain colour background",
+      "put a picture behind me for each thing I mention",
+      "change the background when I talk about each place",
+      "put my screenshots behind me",
+      "a grid of pictures around me",
+      "remove my background"
+    ],
+    "options": {
+      "mode": "auto",
+      "pictures": "",
+      "at": "auto",
+      "color": "auto",
+      "gradient": "soft",
+      "pattern": "none",
+      "layout": "auto",
+      "transition": "fade",
+      "move": "on",
+      "blur": "auto",
+      "rim": "auto",
+      "shadow": "auto",
+      "match": 0.35,
+      "cutout": "careful",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing backdrop my-talk.mp4 pictures=~/my-pictures",
+    "askeditor": {
+      "what": "Cut me out and put my pictures behind me, one for each idea",
+      "why": "swap a picture, move a moment or change the room on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put a new backdrop behind me in my video:"
+  },
+  {
+    "name": "magazine-cover",
+    "title": "Magazine cover",
+    "line": "You become a magazine cover: a masthead behind your head and your own lines round you",
+    "card": "You on a cover, its name behind you",
+    "do": "turn me into a magazine cover in",
+    "category": "behind-you",
+    "needs": [
+      "person",
+      "words",
+      "face"
+    ],
+    "say": [
+      "make me a magazine cover",
+      "turn this into a magazine cover",
+      "put me on a magazine cover",
+      "a masthead behind my head",
+      "make me the cover star",
+      "a cover with my words round me"
+    ],
+    "options": {
+      "look": "bold",
+      "title": "auto",
+      "lines": "auto",
+      "when": "auto",
+      "color": "auto",
+      "issue": "auto",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing magazine-cover my-talk.mp4",
+    "askeditor": {
+      "what": "Add a Magazine hook",
+      "why": "retype the masthead and the cover lines, move them and retime the cover on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then turn me into a magazine cover in my video:"
+  },
+  {
+    "name": "pictures-behind",
+    "title": "Pictures behind you",
+    "line": "Your own reels, screenshots or headlines piled up, pinned in a wall or flash-cut behind you, landing on your words",
+    "card": "A wall of your screenshots behind you",
+    "do": "put my pictures behind me in",
+    "category": "behind-you",
+    "needs": [
+      "person",
+      "words",
+      "face"
+    ],
+    "say": [
+      "pile my reels up behind me",
+      "put my screenshots behind my head",
+      "a wall of my posts behind me",
+      "flash my headlines behind me on each word",
+      "show my thumbnails stacking up behind me"
+    ],
+    "options": {
+      "mode": "pile",
+      "pictures": "",
+      "headlines": "",
+      "map": "",
+      "on": "auto",
+      "at": "auto",
+      "hold": "auto",
+      "size": "medium",
+      "style": "clean",
+      "move": "on",
+      "sound": "on",
+      "cutout": "careful",
+      "fix": ""
+    },
+    "type_this": "/video-editing pictures-behind my-talk.mp4 pictures=~/my-reels",
+    "askeditor": {
+      "what": "Pile my pictures up behind me as I name them",
+      "why": "swap a picture, move it to another word or change the pile to a wall on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put my pictures behind me in my video:"
+  },
+  {
+    "name": "spotlight",
+    "title": "Spotlight",
+    "line": "The lights go down: the room goes dark and you stay lit, with your word in neon, an LED sign, golden rays or a beam through haze",
+    "card": "The room goes dark and you stay lit",
+    "do": "put me in a spotlight in",
+    "category": "behind-you",
+    "needs": [
+      "person",
+      "face",
+      "words"
+    ],
+    "say": [
+      "turn the lights down",
+      "spotlight on me",
+      "make the room go dark and keep me lit",
+      "a neon sign behind me",
+      "my word in neon behind my head",
+      "an LED sign behind me",
+      "golden rays behind me",
+      "lights down when I say it"
+    ],
+    "options": {
+      "at": "auto",
+      "until": "end",
+      "dark": 0.8,
+      "look": "dark",
+      "word": "auto",
+      "color": "auto",
+      "sound": "on",
+      "captions": "off",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing spotlight my-talk.mp4 look=neon",
+    "askeditor": {
+      "what": "Add a Neon hook",
+      "why": "change the word, its colour and when the lights go down on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put me in a spotlight in my video:"
+  },
+  {
+    "name": "words-behind",
+    "title": "Words behind you",
+    "line": "A giant word behind your head, landing on the line it belongs to",
+    "card": "A giant word behind your head",
+    "do": "put a giant word behind me in",
+    "category": "behind-you",
+    "needs": [
+      "person",
+      "words",
+      "face"
+    ],
+    "say": [
+      "put a word behind me",
+      "big text behind my head",
+      "words behind me",
+      "text behind me on the hook",
+      "a giant word behind my head when I say it"
+    ],
+    "options": {
+      "text": "auto",
+      "when": "auto",
+      "font": "condensed",
+      "color": "auto",
+      "size": "auto",
+      "animation": "rise",
+      "hold": "auto",
+      "style": "solid",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing words-behind my-talk.mp4",
+    "askeditor": {
+      "what": "Add a Words behind hook",
+      "why": "retype the word, move it and retime it on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put a giant word behind me in my video:"
+  },
+  {
+    "name": "punch-in",
+    "title": "Punch-in",
+    "line": "A quick zoom onto your face on the word that matters; or a slow push, a drift or a pull-back",
+    "card": "A quick zoom on the word that matters",
+    "do": "punch in on the key word in",
+    "category": "camera",
+    "needs": [
+      "face",
+      "words"
+    ],
+    "say": [
+      "punch in on the point",
+      "zoom in on the key words",
+      "punch in when I say",
+      "add zoom punches",
+      "slow push in",
+      "zoom in on my face",
+      "pull back at the end",
+      "add camera movement to my talking video"
+    ],
+    "options": {
+      "at": "auto",
+      "amount": "auto",
+      "style": "punch",
+      "sound": "auto",
+      "captions": "off",
+      "frame": "9:16",
+      "fix": ""
+    },
+    "type_this": "/video-editing punch-in my-talk.mp4",
+    "askeditor": {
+      "what": "Punch in on the point",
+      "why": "each move stays a keyframe on the timeline, to slide onto another word, make closer or take out"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then punch in on the key word in my video:"
+  },
+  {
+    "name": "reframe",
+    "title": "Reframe",
+    "line": "Landscape or square made vertical, 4:5, square or 16:9, the frame following your face calmly; or every shape at once",
+    "card": "Landscape made vertical, face kept in",
+    "do": "reframe",
+    "category": "camera",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "make this vertical",
+      "make it 9:16",
+      "crop this for Reels",
+      "turn this landscape video into a short",
+      "make a square version",
+      "make it 4:5 for the feed",
+      "make every format",
+      "keep me in frame",
+      "follow whoever is talking"
+    ],
+    "options": {
+      "format": "9:16",
+      "mode": "track",
+      "speaker": "auto",
+      "size": "auto"
+    },
+    "type_this": "/video-editing reframe my-podcast.mp4",
+    "askeditor": {
+      "what": "Make this vertical",
+      "why": "the camera stays keyframes on the timeline: drag a move, change who it follows, or switch shape without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then reframe my video:"
+  },
+  {
+    "name": "qc-check",
+    "title": "Checks before done",
+    "line": "Checks a finished video before you post it: black or frozen frames, silence, loudness, clipping, words over the face, the safe zone, washed-out HDR",
+    "card": "Finds faults before you post",
+    "do": "run the final checks on",
+    "category": "checks",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "check this before I post it",
+      "is this ready to post",
+      "check my video",
+      "quality check this",
+      "is anything over my face",
+      "is it loud enough for Reels",
+      "check the safe zone"
+    ],
+    "options": {
+      "source": "",
+      "platform": "reels",
+      "strict": "off"
+    },
+    "type_this": "/video-editing qc-check my-reel.mp4 source=my-take.mp4",
+    "askeditor": {
+      "what": "Check my edit before I post it",
+      "why": "it watches the edit as it will export at every moment that matters, and each fix is a move on the canvas, not a new render"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then run the final checks on my video:"
+  },
+  {
+    "name": "review-notes",
+    "title": "Review notes",
+    "line": "A cheap preview with the time under it, then your notes at exact seconds, each closed only when a check proves it fixed; the final renders when none is open",
+    "card": "Notes at exact seconds, each one fixed",
+    "do": "take my review notes on",
+    "category": "checks",
+    "needs": [
+      "words"
+    ],
+    "say": [
+      "let me review it first",
+      "make me a quick preview",
+      "at 4 seconds the caption covers my chin",
+      "cut the pause at 12 seconds",
+      "here are my notes",
+      "here's a voice memo with my notes",
+      "check my notes are fixed",
+      "render the final"
+    ],
+    "options": {
+      "notes": "",
+      "memo": "",
+      "source": "",
+      "pause": 0.5,
+      "final": "off"
+    },
+    "type_this": "/video-editing review-notes my-reel.mp4",
+    "askeditor": {
+      "what": "Go through my review notes",
+      "why": "a note dropped on the picture changes the edit where it stands, with no render, and each one is answered yes or no"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then take my review notes on my video:"
+  },
+  {
+    "name": "grade",
+    "title": "Colour grade",
+    "line": "A colour look in one word, with skin kept natural: moody, black and white, warm, cool, pop or film",
+    "card": "One-word colour look, skin kept natural",
+    "do": "colour grade",
+    "category": "colour",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "make it moody",
+      "colour grade this",
+      "make it black and white",
+      "give it a film look",
+      "make it warmer",
+      "make the colours pop",
+      "make it look cinematic",
+      "turn it moody when I say moody"
+    ],
+    "options": {
+      "look": "moody",
+      "intensity": 1,
+      "vignette": "auto",
+      "grain": "auto",
+      "start": 0,
+      "end": "end",
+      "fix": ""
+    },
+    "type_this": "/video-editing grade my-talk.mp4 look=film",
+    "askeditor": {
+      "what": "Colour grade my video",
+      "why": "change the look, its strength and where it starts on the canvas, and see it at once, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then colour grade my video:"
+  },
+  {
+    "name": "broll-cutaways",
+    "title": "B-roll cutaways",
+    "line": "Your own B-roll cut in on the words that name it while your voice runs on: full screen, split with you, or you in a corner",
+    "card": "Your footage cut in on the words",
+    "do": "cut my B-roll into",
+    "category": "cutting",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add my b-roll",
+      "cut to my b-roll when I mention it",
+      "show my clips while I talk",
+      "add cutaways",
+      "b-roll on top and me below",
+      "put me in a corner over my b-roll",
+      "cut to the lake when I say lake"
+    ],
+    "options": {
+      "broll": "",
+      "map": "",
+      "mode": "full",
+      "on": "keywords",
+      "duration": "auto",
+      "max_share": 0.5,
+      "transition": "cut",
+      "broll_audio": "mute",
+      "captions": "auto",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing broll-cutaways my-talk.mp4 broll=~/my-broll",
+    "askeditor": {
+      "what": "Cut my B-roll in where I name each thing",
+      "why": "swap a clip, move a cutaway or change the layout on the timeline without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then cut my B-roll into my video:"
+  },
+  {
+    "name": "transitions",
+    "title": "Transitions",
+    "line": "A join between two shots: a punch, whip, crossfade, wipe, glitch, light leak, flash or dots, each landing on its cut with a sound of its own",
+    "card": "A whip, wipe or flash between two shots",
+    "do": "add transitions to",
+    "category": "cutting",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add transitions",
+      "add a transition between my clips",
+      "zoom punch on my jump cuts",
+      "whip pan between these clips",
+      "crossfade between the shots",
+      "add a glitch transition",
+      "light leak transitions",
+      "join these clips with transitions"
+    ],
+    "options": {
+      "look": "auto",
+      "joins": "auto",
+      "duration": "auto",
+      "clips": "",
+      "sound": "on",
+      "color": "auto",
+      "events": ""
+    },
+    "type_this": "/video-editing transitions my-edit.mp4 look=whip",
+    "askeditor": {
+      "what": "Put a transition on each join of my video",
+      "why": "each transition stays on its cut: swap the look, move it or change its length without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add transitions to my video:"
+  },
+  {
+    "name": "chapter-cards",
+    "title": "Chapter cards",
+    "line": "Your talk in parts: each part's title lands in the pause before it, and a thin rail along the top fills as the video plays",
+    "card": "Your talk in parts, each with a title",
+    "do": "add chapter cards to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add chapters",
+      "add chapter titles",
+      "split my video into parts",
+      "add a progress bar",
+      "show which part we are on",
+      "put the section titles on screen",
+      "number the parts of my talk"
+    ],
+    "options": {
+      "titles": "auto",
+      "cards": "full",
+      "rail": "on",
+      "look": "bold",
+      "min_part": "auto",
+      "color": "auto"
+    },
+    "type_this": "/video-editing chapter-cards my-talk.mp4",
+    "askeditor": {
+      "what": "Add a part opener before each part of my talk",
+      "why": "retitle a part, move where it begins, or change the look on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add chapter cards to my video:"
+  },
+  {
+    "name": "chart",
+    "title": "Chart",
+    "line": "A frosted glass card beside your head: a line climbs or bars rise while the number counts up and lands as you say it",
+    "card": "A line climbs as the number lands",
+    "do": "add a counting chart to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add a chart",
+      "add a graph",
+      "show the numbers going up",
+      "add a glass graph",
+      "add a counter",
+      "count up to the number",
+      "show my growth"
+    ],
+    "options": {
+      "type": "line",
+      "values": "auto",
+      "label": "auto",
+      "when": "auto",
+      "position": "auto",
+      "accent": "auto",
+      "prefix": "auto",
+      "suffix": "auto",
+      "style": "glass",
+      "duration": 0,
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing chart my-talk.mp4 values=2K,15K,197K label=Followers",
+    "askeditor": {
+      "what": "Add a Figure with trend graphic where the number is said",
+      "why": "change the numbers, the label or the moment on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a counting chart to my video:"
+  },
+  {
+    "name": "checklist",
+    "title": "Checklist",
+    "line": "Steps tick off beside your head as you say them: a tick, a spinner, switches flipping on, a strike-through, or a bar that fills a step at a time",
+    "card": "Steps tick off as you say them",
+    "do": "tick off the steps I say in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person"
+    ],
+    "say": [
+      "add a checklist",
+      "tick off the steps as I say them",
+      "a to-do list that ticks off as I talk",
+      "add switches that flip on as I list them",
+      "a progress bar that fills as I go through the steps",
+      "cross off each step"
+    ],
+    "options": {
+      "items": "",
+      "look": "tick",
+      "title": "",
+      "position": "auto",
+      "style": "solid",
+      "accent": "auto",
+      "hold": 1.0,
+      "leave": 0,
+      "sound": "on",
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing checklist my-steps.mp4",
+    "askeditor": {
+      "what": "Add a Progress props graphic on the steps I list",
+      "why": "retype a step or move its tick on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then tick off the steps I say in my video:"
+  },
+  {
+    "name": "comparison-grid",
+    "title": "This versus that",
+    "line": "This versus that in two columns, or an if/then grid that fills row by row above your head as you say each part",
+    "card": "Two columns that fill as you compare",
+    "do": "add a this-versus-that grid to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person-mask"
+    ],
+    "say": [
+      "compare these two",
+      "this versus that",
+      "make an if then grid",
+      "show before and after side by side",
+      "put a comparison table above my head",
+      "pros and cons in two columns"
+    ],
+    "options": {
+      "items": "",
+      "look": "auto",
+      "title": "",
+      "position": "auto",
+      "style": "glass",
+      "accent": "auto",
+      "leave": 0,
+      "hold": 0,
+      "sound": "on",
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing comparison-grid my-talk.mp4 items=\"Phone | Camera; Cheap | Dear\"",
+    "askeditor": {
+      "what": "Add a comparison grid",
+      "why": "retype a cell, add a row or move the grid on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a this-versus-that grid to my video:"
+  },
+  {
+    "name": "cta-card",
+    "title": "Call to action",
+    "line": "An ending that asks: comment a word, follow, or watch a comment being posted, never over your face",
+    "card": "Ends asking people to comment or follow",
+    "do": "add a call to action to the end of",
+    "category": "graphics",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "add a call to action",
+      "ask them to comment a word",
+      "comment GUIDE at the end",
+      "add a follow button",
+      "add a subscribe button",
+      "end with a CTA"
+    ],
+    "options": {
+      "kind": "auto",
+      "word": "",
+      "line": "",
+      "when": "end",
+      "position": "auto",
+      "accent": "auto",
+      "sound": "on"
+    },
+    "type_this": "/video-editing cta-card my-talk.mp4 word=GUIDE",
+    "askeditor": {
+      "what": "Add a follow card at the end",
+      "why": "change the word, the handle or the moment on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a call to action to the end of my video:"
+  },
+  {
+    "name": "freeze-point",
+    "title": "Freeze and point",
+    "line": "The picture stops on a moment and a hand-drawn arrow and a label point at you, or a loop, or a comic panel",
+    "card": "It freezes, and an arrow points at you",
+    "do": "freeze and point at me in",
+    "category": "graphics",
+    "needs": [
+      "face",
+      "person",
+      "words"
+    ],
+    "say": [
+      "freeze the frame and point at me",
+      "freeze frame with an arrow",
+      "pause on me with a label",
+      "yep that's me freeze frame",
+      "freeze it and circle my head",
+      "freeze into a comic panel"
+    ],
+    "options": {
+      "at": "auto",
+      "hold": 1.6,
+      "label": "auto",
+      "mark": "arrow",
+      "color": "auto",
+      "sound": "scratch",
+      "captions": "off",
+      "frame": "keep",
+      "fix": ""
+    },
+    "type_this": "/video-editing freeze-point my-talk.mp4 label=\"that's me\"",
+    "askeditor": {
+      "what": "Add a Freeze intro hook",
+      "why": "move the moment, retype the name and change the look on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then freeze and point at me in my video:"
+  },
+  {
+    "name": "glass-widgets",
+    "title": "Glass widgets",
+    "line": "Frosted glass widgets gather round your head, some of them tucked behind it, each carrying your own figure, name or line",
+    "card": "Glass cards with your numbers round you",
+    "do": "put glass widgets round my head in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person"
+    ],
+    "say": [
+      "add glass widgets",
+      "glass widgets round my head",
+      "frosted glass cards around me",
+      "a bento of glass tiles",
+      "widgets floating around my head",
+      "glass cards behind my head",
+      "show my stats in glass"
+    ],
+    "options": {
+      "widgets": "auto",
+      "name": "",
+      "layout": "auto",
+      "depth": 0.6,
+      "tone": "auto",
+      "accent": "auto",
+      "when": "auto",
+      "hold": "auto",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing glass-widgets my-talk.mp4 name=Sam widgets=\"number: 197K followers | note: Shot in one take\"",
+    "askeditor": {
+      "what": "Add glass widgets round my head with my figures and my name",
+      "why": "move, retype or retime each widget on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put glass widgets round my head in my video:"
+  },
+  {
+    "name": "glitch",
+    "title": "Glitch",
+    "line": "The frame breaks apart for a split second on a word or a cut, with an optional uninstall or progress bar that breaks with it",
+    "card": "The frame breaks apart on a word",
+    "do": "add a glitch to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add a glitch",
+      "glitch the frame on the word that matters",
+      "a glitch on every cut",
+      "add an uninstalling bar that glitches out",
+      "a loading bar that breaks the video"
+    ],
+    "options": {
+      "at": "auto",
+      "strength": "medium",
+      "bar": "off",
+      "sound": "on"
+    },
+    "type_this": "/video-editing glitch my-video.mp4",
+    "askeditor": {
+      "what": "Add a Glitch hook on my key word",
+      "why": "move the glitch to another word or change its words on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a glitch to my video:"
+  },
+  {
+    "name": "hook",
+    "title": "Hook",
+    "line": "The first three seconds: an opener built on your first line",
+    "card": "An opener built on your first line",
+    "do": "add a hook to the start of",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add a hook",
+      "make the first three seconds stop the scroll",
+      "put my first line on screen",
+      "add a text box hook",
+      "snap zoom at the start",
+      "start with my strongest line",
+      "open with a whoosh",
+      "iris open"
+    ],
+    "options": {
+      "look": "text-box",
+      "open": "first",
+      "text": "",
+      "style": "box",
+      "sound": "auto",
+      "frame": "9:16",
+      "fix": ""
+    },
+    "type_this": "/video-editing hook my-talk.mp4",
+    "askeditor": {
+      "what": "Add a hook",
+      "why": "the line stays words you can retype and move, and the opener can be swapped for any of the other hooks without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a hook to the start of my video:"
+  },
+  {
+    "name": "notifications",
+    "title": "Notifications",
+    "line": "Message notifications pop in one after another as you speak, the newest on top, never on your face",
+    "card": "Messages pop in as you speak",
+    "do": "pop message notifications into",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add notifications",
+      "pop up messages as I talk",
+      "show message notifications",
+      "stack notifications above my head",
+      "add DM pop-ups",
+      "make my lines pop in as messages"
+    ],
+    "options": {
+      "items": "",
+      "count": 3,
+      "sender": "auto",
+      "style": "glass",
+      "position": "auto",
+      "most": 3,
+      "accent": "auto",
+      "hold": 2.2,
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing notifications my-talk.mp4 sender=@myhandle",
+    "askeditor": {
+      "what": "Add the Notification hook with my line",
+      "why": "change the words, the sender or the moment on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then pop message notifications into my video:"
+  },
+  {
+    "name": "number-counter",
+    "title": "Number counter",
+    "line": "Every number you say counts up on screen and lands on its word, or a 3-2-1 flip clock counts down above your head",
+    "card": "Every number you say counts up on screen",
+    "do": "count up the numbers I say in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "count up the numbers I say",
+      "add a number counter",
+      "make my numbers roll up",
+      "add an odometer",
+      "flip clock for my numbers",
+      "add a 3 2 1 countdown",
+      "countdown above my head"
+    ],
+    "options": {
+      "style": "roll",
+      "values": "auto",
+      "when": "auto",
+      "label": "auto",
+      "from": 3,
+      "position": "auto",
+      "hold": 1.8,
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing number-counter my-talk.mp4",
+    "askeditor": {
+      "what": "Add a Count up graphic on the number I say",
+      "why": "change the number, its label or the moment on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then count up the numbers I say in my video:"
+  },
+  {
+    "name": "pictures-above-head",
+    "title": "Pictures above your head",
+    "line": "Your own pictures, logos or proof pop in above or beside your head as you name each one",
+    "card": "Your proof pops in as you name it",
+    "do": "pop my pictures above my head in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "put pictures above my head",
+      "show a picture of each thing I mention",
+      "pop up my photos as I name them",
+      "show the logos of the tools I name",
+      "add my screenshots as proof",
+      "an arc of pictures over my head",
+      "a column of pictures beside me"
+    ],
+    "options": {
+      "pictures": "",
+      "map": "",
+      "layout": "auto",
+      "on": "keywords",
+      "hold": "auto",
+      "size": "auto",
+      "style": "clean",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing pictures-above-head my-talk.mp4 pictures=~/my-pictures",
+    "askeditor": {
+      "what": "Add an Items beside you graphic with my pictures where I name each one",
+      "why": "swap a picture, move the row or change the moment it lands on the canvas without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then pop my pictures above my head in my video:"
+  },
+  {
+    "name": "prompt-box",
+    "title": "Prompt box",
+    "line": "A prompt types itself over your clip, and the edit answers on the same beat",
+    "card": "A prompt types, and the edit answers",
+    "do": "add a prompt that types itself to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "type the prompt on screen",
+      "show me asking for the edit",
+      "a prompt box that makes it moody",
+      "the edit builds itself as I ask",
+      "a chat box that types each edit",
+      "show the command, then the result"
+    ],
+    "options": {
+      "text": "make it moody",
+      "answer": "auto",
+      "when": "auto",
+      "until": "auto",
+      "style": "light",
+      "position": "auto",
+      "speed": 1,
+      "sound": "on",
+      "beat": "auto",
+      "accent": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing prompt-box my-talk.mp4 text=\"make it moody | captions on | big title\"",
+    "askeditor": {
+      "what": "Type my ask on screen in a prompt box, and make the edit as it is sent",
+      "why": "retype a prompt, move the moment it is sent, or swap its answer on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a prompt that types itself to my video:"
+  },
+  {
+    "name": "quote-card",
+    "title": "Quote card",
+    "line": "A quote, a post or a clipping pops in as you read it out, each word lit as you say it",
+    "card": "A quote lit word by word as you read it",
+    "do": "pop up the quote I read out in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "show the quote as a card",
+      "put what he said on screen",
+      "show the post I'm reading",
+      "make it a newspaper clipping",
+      "add a pull quote",
+      "highlight the words as I read them"
+    ],
+    "options": {
+      "look": "auto",
+      "text": "",
+      "name": "",
+      "source": "",
+      "when": "auto",
+      "hold": 1.2,
+      "position": "auto",
+      "accent": "auto",
+      "captions": "off",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing quote-card my-talk.mp4 text=\"the words you read out\"",
+    "askeditor": {
+      "what": "Add a Quote marks graphic on the line I read out",
+      "why": "retype the quote, move it or change its look on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then pop up the quote I read out in my video:"
+  },
+  {
+    "name": "ranked-list",
+    "title": "Ranked list",
+    "line": "Items pop into a numbered list the moment you say each one: a top-five board, a countdown to number one, a rapid run, or numbered tiles in an arc above your head",
+    "card": "Your top five pops in as you say it",
+    "do": "add a ranked list to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person"
+    ],
+    "say": [
+      "make a top 5 list",
+      "put a numbered list on my video",
+      "count down my top five",
+      "pop each item into a list as I say it",
+      "a rapid list of the apps I name",
+      "numbered tiles above my head"
+    ],
+    "options": {
+      "items": "",
+      "look": "board",
+      "title": "",
+      "position": "auto",
+      "style": "solid",
+      "accent": "auto",
+      "hold": 1.0,
+      "leave": 0,
+      "sound": "on",
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing ranked-list my-top-five.mp4",
+    "askeditor": {
+      "what": "Add a Numbered list graphic on the things I list",
+      "why": "retype a row, change its number or move when it lands on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a ranked list to my video:"
+  },
+  {
+    "name": "receipt",
+    "title": "Receipt",
+    "line": "Your list prints out like a till receipt above your head, a line as you say each item, with the prices and a total when you say them",
+    "card": "Your list prints out, prices and total",
+    "do": "print my list as a till receipt in",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person"
+    ],
+    "say": [
+      "print my list like a receipt",
+      "add a receipt above my head",
+      "make the things I list print out like a bill",
+      "a receipt with a total of what I spent"
+    ],
+    "options": {
+      "items": "",
+      "title": "",
+      "total": "auto",
+      "position": "auto",
+      "sound": "on"
+    },
+    "type_this": "/video-editing receipt my-list.mp4",
+    "askeditor": {
+      "what": "Add a Fact card graphic with the things I list",
+      "why": "retype a line or a price and move it on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then print my list as a till receipt in my video:"
+  },
+  {
+    "name": "retro-overlay",
+    "title": "Retro overlay",
+    "line": "Your clip through a camcorder's viewfinder, an editing timeline of your own shots, a tape played back, or film with its burns",
+    "card": "A camcorder, tape or old film look",
+    "do": "give a camcorder look to",
+    "category": "graphics",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "make it look like a camcorder",
+      "add a REC frame",
+      "make it look like an old tape",
+      "give it a VHS look",
+      "add a film burn",
+      "make it look like old film",
+      "show an editing timeline over my video"
+    ],
+    "options": {
+      "look": "camcorder",
+      "date": "auto",
+      "strength": 0.8,
+      "start": "0",
+      "end": "end",
+      "captions": "off",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing retro-overlay my-talk.mp4 look=vhs",
+    "askeditor": {
+      "what": "Give my video a camcorder look",
+      "why": "change the look, its strength and when it starts on the canvas, and see it at once, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then give a camcorder look to my video:"
+  },
+  {
+    "name": "social-frame",
+    "title": "Social frame",
+    "line": "Your clip pulls back into a post card, a phone, a fan of phones or the middle of a grid, and keeps playing there",
+    "card": "Your clip shrinks into a phone and plays",
+    "do": "put a phone frame round",
+    "category": "graphics",
+    "needs": [
+      "face",
+      "words"
+    ],
+    "say": [
+      "put my video in a phone",
+      "shrink it into a post",
+      "make it look like a post card",
+      "show it as a fan of phones",
+      "put me in the middle of my grid",
+      "frame my clip like a reel"
+    ],
+    "options": {
+      "look": "card",
+      "at": "auto",
+      "duration": 0,
+      "name": "",
+      "caption": "",
+      "likes": "",
+      "comments": "",
+      "pictures": "",
+      "background": "auto",
+      "captions": "off",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing social-frame my-talk.mp4 look=phone name=yourname",
+    "askeditor": {
+      "what": "Put my clip in a phone frame",
+      "why": "swap the frame, retype the name and the caption, and move when it pulls back on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put a phone frame round my video:"
+  },
+  {
+    "name": "stickers",
+    "title": "Stickers",
+    "line": "Stickers that slap on with the word: a stamp, a price tag, a starburst or an emoji-style badge, never on your face",
+    "card": "A price tag or stamp slaps on the word",
+    "do": "slap stickers on",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add stickers",
+      "stamp it",
+      "slap a price tag on when I say the price",
+      "add a starburst on that word",
+      "pop an emoji next to me",
+      "add a sticker on the word"
+    ],
+    "options": {
+      "at": "auto",
+      "kind": "auto",
+      "text": "",
+      "color": "auto",
+      "count": 0,
+      "hold": 1.6,
+      "captions": "off",
+      "sound": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing stickers my-talk.mp4 at=\"forty nine dollars\" kind=price",
+    "askeditor": {
+      "what": "Add Emoji pops beside me on the words that matter",
+      "why": "move, swap or retime a sticker on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then slap stickers on my video:"
+  },
+  {
+    "name": "tier-list",
+    "title": "Tier list",
+    "line": "A tier board above or beside you; each card drops into its row the moment you rank it",
+    "card": "Rank things into rows as you speak",
+    "do": "add a tier list to",
+    "category": "graphics",
+    "needs": [
+      "words",
+      "face",
+      "person"
+    ],
+    "say": [
+      "make a tier list",
+      "rank these in tiers",
+      "add a tier list as I rank things",
+      "put an S A B C D board on my video",
+      "drop each one into its tier when I say it",
+      "tier ranking"
+    ],
+    "options": {
+      "items": "",
+      "tiers": "S,A,B,C,D",
+      "title": "",
+      "position": "auto",
+      "style": "solid",
+      "drop": "fall",
+      "hold": 1.5,
+      "sound": "on",
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing tier-list my-ranking.mp4",
+    "askeditor": {
+      "what": "Add a tier list that fills in as I rank things",
+      "why": "drag a card to another row, retype a name or recolour a tier on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add a tier list to my video:"
+  },
+  {
+    "name": "before-after",
+    "title": "Before and after",
+    "line": "One wipe across your playing clip: the clip as shot on one side, a look or your edit on the other",
+    "card": "Your clip as shot, wiped into your edit",
+    "do": "make a before and after wipe of",
+    "category": "layout",
+    "needs": [
+      "face"
+    ],
+    "say": [
+      "show a before and after",
+      "before and after of the grade",
+      "wipe from my raw take to the edit",
+      "a slider that swipes across me",
+      "split screen before and after",
+      "show the edit against the original"
+    ],
+    "options": {
+      "after": "moody",
+      "mode": "auto",
+      "direction": "left",
+      "at": 1,
+      "duration": "auto",
+      "labels": "on",
+      "fix": ""
+    },
+    "type_this": "/video-editing before-after my-take.mp4 after=my-edit.mp4",
+    "askeditor": {
+      "what": "Show a before and after of my edit",
+      "why": "move the divider, retime the wipe or change the look on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then make a before and after wipe of my video:"
+  },
+  {
+    "name": "split-layout",
+    "title": "Split layout",
+    "line": "You share the frame with your B-roll, pictures, screens or a line, the layout changing on your cuts or sentences",
+    "card": "You and your B-roll sharing the frame",
+    "do": "split the frame with my B-roll in",
+    "category": "layout",
+    "needs": [
+      "face",
+      "words"
+    ],
+    "say": [
+      "put me in a panel at the bottom with my b-roll on top",
+      "split screen me and my footage",
+      "put my screen recording above me",
+      "me on the left and my notes on the right",
+      "picture in picture with me in the corner",
+      "switch the layout on every cut"
+    ],
+    "options": {
+      "layout": "panel",
+      "content": "",
+      "switch": "auto",
+      "full": "first",
+      "ratio": 0,
+      "corner": "auto",
+      "transition": "slide",
+      "style": "dark",
+      "border": "off",
+      "captions": "off",
+      "inside": "",
+      "over": "",
+      "sound": "on",
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing split-layout my-talk.mp4 content=~/Movies/b-roll/",
+    "askeditor": {
+      "what": "Put me in a panel under my B-roll, and change the layout on each cut",
+      "why": "drag a panel's edge, swap a clip or move a switch on the canvas, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then split the frame with my B-roll in my video:"
+  },
+  {
+    "name": "post-copy",
+    "title": "Post copy",
+    "line": "Writes a .post.md beside your video: what you say in its parts, YouTube chapters and each platform's limits, for your agent to write the titles, captions, hashtags and a short post into, then checks them",
+    "card": "Titles, captions and hashtags to post",
+    "do": "write the post copy for",
+    "category": "publishing",
+    "needs": [
+      "words"
+    ],
+    "say": [
+      "write my caption",
+      "write the captions for Instagram and TikTok",
+      "give me a title and description for YouTube",
+      "add YouTube chapters with timestamps",
+      "what hashtags should I use",
+      "write a LinkedIn post for this video",
+      "write the copy to post with this"
+    ],
+    "options": {
+      "titles": "auto",
+      "min_part": "auto",
+      "platforms": "all",
+      "check": "off"
+    },
+    "type_this": "/video-editing post-copy my-talk.mp4",
+    "askeditor": {
+      "what": "Write the post for this video for each platform",
+      "why": "keep the copy with the video, change it per platform and schedule each post from the same place"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then write the post copy for my video:"
+  },
+  {
+    "name": "long-to-shorts",
+    "title": "Long video to shorts",
+    "line": "A long video becomes ranked vertical shorts, each one whole thought with a hook and a close, cut clean and captioned",
+    "card": "One long talk cut into vertical clips",
+    "do": "cut shorts from",
+    "category": "repurposing",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "turn this into shorts",
+      "find the best clips in this video",
+      "make reels from my long video",
+      "cut this podcast into shorts",
+      "give me three clips from this talk",
+      "repurpose this video"
+    ],
+    "options": {
+      "count": 3,
+      "min": 20,
+      "max": 60,
+      "rank": "best",
+      "only": 0,
+      "cuts": "clean",
+      "captions": "on",
+      "loudness": "reels",
+      "look": "stacked",
+      "color": "auto",
+      "position": "auto",
+      "max_words": 0,
+      "frame": "9:16",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing long-to-shorts my-talk.mp4",
+    "askeditor": {
+      "what": "Turn this into a reel",
+      "why": "each short stays a cut on the timeline you can widen or move by a sentence, with its captions as words you can retype"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then cut shorts from my video:"
+  },
+  {
+    "name": "music-bed",
+    "title": "Music bed",
+    "line": "Your own track under your voice: it dips while you talk, rises in the pauses, and ends when the film does",
+    "card": "Your song dips while you talk",
+    "do": "lay my song under",
+    "category": "sound",
+    "needs": [
+      "words"
+    ],
+    "say": [
+      "add my music under this",
+      "put this song under my voice",
+      "add background music",
+      "make the music duck when I talk",
+      "fit the music to the video",
+      "make the song end when the video ends"
+    ],
+    "options": {
+      "music": "",
+      "level": -6,
+      "duck": 10,
+      "fade": "0.5,1.5",
+      "fit": "auto",
+      "target_lufs": "-14"
+    },
+    "type_this": "/video-editing music-bed my-talk.mp4 music=~/Music/my-song.mp3",
+    "askeditor": {
+      "what": "Add background music",
+      "why": "the music stays its own clip on the timeline: change the track, its level or where it dips without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then lay my song under my video:"
+  },
+  {
+    "name": "sound-effects",
+    "title": "Sound effects",
+    "line": "Our own whoosh, pop, click, hit, riser and ding on every cut, card or word, each on the first frame of its moment",
+    "card": "Whooshes and pops on every cut",
+    "do": "add sound effects to",
+    "category": "sound",
+    "needs": [
+      "words"
+    ],
+    "say": [
+      "add sound effects",
+      "put a whoosh on every cut",
+      "add a pop when each card appears",
+      "add a ding when I say the number",
+      "add sound design",
+      "make the cuts swoosh"
+    ],
+    "options": {
+      "sounds": "",
+      "on": "auto",
+      "kind": "auto",
+      "words": "",
+      "events": "",
+      "level": -9,
+      "variety": 0.3,
+      "fix": ""
+    },
+    "type_this": "/video-editing sound-effects my-edit.mp4",
+    "askeditor": {
+      "what": "Add sound effects to my edit",
+      "why": "each sound stays a clip on the timeline: slide it, swap it or turn it down without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then add sound effects to my video:"
+  },
+  {
+    "name": "clean-cut",
+    "title": "Clean cut",
+    "line": "Dead air, retakes and false starts cut out, captions on, framed 9:16",
+    "card": "Pauses and retakes out, captions on",
+    "do": "clean cut",
+    "category": "talking",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "cut the pauses",
+      "remove the dead air",
+      "cut my retakes",
+      "tighten this talking video",
+      "make this a clean reel",
+      "jump cut this"
+    ],
+    "options": {
+      "pause": 0.35,
+      "keep_retakes": "off",
+      "fillers": "cut",
+      "asides": "cut",
+      "captions": "on",
+      "look": "stacked",
+      "color": "auto",
+      "position": "auto",
+      "max_words": 0,
+      "frame": "9:16",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing clean-cut my-talk.mp4",
+    "askeditor": {
+      "what": "Clean up my talking video",
+      "why": "every cut stays on the timeline to nudge or undo, and the captions stay words you can move and retype"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then clean cut my video:"
+  },
+  {
+    "name": "captions",
+    "title": "Captions",
+    "line": "Word-timed captions in four looks, kept clear of your face",
+    "card": "Every word on screen, clear of your face",
+    "do": "caption",
+    "category": "text",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add captions",
+      "add subtitles",
+      "caption this",
+      "put words on screen",
+      "burn in captions"
+    ],
+    "options": {
+      "look": "stacked",
+      "color": "auto",
+      "position": "auto",
+      "max_words": 0,
+      "frame": "keep",
+      "size": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing captions my-talk.mp4 look=serif-chip",
+    "askeditor": {
+      "what": "Add captions to my video",
+      "why": "move, restyle and retype any line on the canvas without prompting or rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then caption my video:"
+  },
+  {
+    "name": "headline",
+    "title": "Headline",
+    "line": "Big type on the line that makes the point, landing as it is said, never over your face",
+    "card": "Big type on the line that makes a point",
+    "do": "put a big headline on",
+    "category": "text",
+    "needs": [
+      "words",
+      "face"
+    ],
+    "say": [
+      "add a headline",
+      "put the line in big text",
+      "big text on screen",
+      "add a callout",
+      "add a title on that line",
+      "make that line pop"
+    ],
+    "options": {
+      "text": "",
+      "when": "auto",
+      "style": "block",
+      "animation": "auto",
+      "accent": "auto",
+      "size": 1,
+      "duration": 0,
+      "position": "auto",
+      "fix": ""
+    },
+    "type_this": "/video-editing headline my-talk.mp4 when=\"bigger captions\" style=serif",
+    "askeditor": {
+      "what": "Add a title card on the line that makes the point",
+      "why": "retype, restyle or move the headline on the canvas, and change when it lands, without rendering again"
+    },
+    "prompt": "Install the free video editing skills from github.com/AskEditor/ai-video-editing-skills into ~/.claude/skills/video-editing, then put a big headline on my video:"
+  }
+]

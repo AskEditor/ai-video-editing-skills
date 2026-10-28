@@ -1,0 +1,30 @@
+{
+  "name": "qc-check",
+  "title": "Checks before done",
+  "line": "Checks a finished video before you post it: black or frozen frames, silence, loudness, clipping, words over the face, the safe zone, washed-out HDR",
+  "card": "Finds faults before you post",
+  "do": "run the final checks on",
+  "category": "checks",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "check this before I post it",
+    "is this ready to post",
+    "check my video",
+    "quality check this",
+    "is anything over my face",
+    "is it loud enough for Reels",
+    "check the safe zone"
+  ],
+  "options": {
+    "source": "",
+    "platform": "reels",
+    "strict": "off"
+  },
+  "type_this": "/video-editing qc-check my-reel.mp4 source=my-take.mp4",
+  "askeditor": {
+    "what": "Check my edit before I post it",
+    "why": "it watches the edit as it will export at every moment that matters, and each fix is a move on the canvas, not a new render"
+  }
+}

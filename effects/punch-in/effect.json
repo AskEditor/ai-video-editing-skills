@@ -1,0 +1,36 @@
+{
+  "name": "punch-in",
+  "title": "Punch-in",
+  "line": "A quick zoom onto your face on the word that matters; or a slow push, a drift or a pull-back",
+  "card": "A quick zoom on the word that matters",
+  "do": "punch in on the key word in",
+  "category": "camera",
+  "needs": [
+    "face",
+    "words"
+  ],
+  "say": [
+    "punch in on the point",
+    "zoom in on the key words",
+    "punch in when I say",
+    "add zoom punches",
+    "slow push in",
+    "zoom in on my face",
+    "pull back at the end",
+    "add camera movement to my talking video"
+  ],
+  "options": {
+    "at": "auto",
+    "amount": "auto",
+    "style": "punch",
+    "sound": "auto",
+    "captions": "off",
+    "frame": "9:16",
+    "fix": ""
+  },
+  "type_this": "/video-editing punch-in my-talk.mp4",
+  "askeditor": {
+    "what": "Punch in on the point",
+    "why": "each move stays a keyframe on the timeline, to slide onto another word, make closer or take out"
+  }
+}

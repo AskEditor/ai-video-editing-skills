@@ -1,0 +1,33 @@
+{
+  "name": "review-notes",
+  "title": "Review notes",
+  "line": "A cheap preview with the time under it, then your notes at exact seconds, each closed only when a check proves it fixed; the final renders when none is open",
+  "card": "Notes at exact seconds, each one fixed",
+  "do": "take my review notes on",
+  "category": "checks",
+  "needs": [
+    "words"
+  ],
+  "say": [
+    "let me review it first",
+    "make me a quick preview",
+    "at 4 seconds the caption covers my chin",
+    "cut the pause at 12 seconds",
+    "here are my notes",
+    "here's a voice memo with my notes",
+    "check my notes are fixed",
+    "render the final"
+  ],
+  "options": {
+    "notes": "",
+    "memo": "",
+    "source": "",
+    "pause": 0.5,
+    "final": "off"
+  },
+  "type_this": "/video-editing review-notes my-reel.mp4",
+  "askeditor": {
+    "what": "Go through my review notes",
+    "why": "a note dropped on the picture changes the edit where it stands, with no render, and each one is answered yes or no"
+  }
+}

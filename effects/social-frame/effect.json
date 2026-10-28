@@ -1,0 +1,39 @@
+{
+  "name": "social-frame",
+  "title": "Social frame",
+  "line": "Your clip pulls back into a post card, a phone, a fan of phones or the middle of a grid, and keeps playing there",
+  "card": "Your clip shrinks into a phone and plays",
+  "do": "put a phone frame round",
+  "category": "graphics",
+  "needs": [
+    "face",
+    "words"
+  ],
+  "say": [
+    "put my video in a phone",
+    "shrink it into a post",
+    "make it look like a post card",
+    "show it as a fan of phones",
+    "put me in the middle of my grid",
+    "frame my clip like a reel"
+  ],
+  "options": {
+    "look": "card",
+    "at": "auto",
+    "duration": 0,
+    "name": "",
+    "caption": "",
+    "likes": "",
+    "comments": "",
+    "pictures": "",
+    "background": "auto",
+    "captions": "off",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing social-frame my-talk.mp4 look=phone name=yourname",
+  "askeditor": {
+    "what": "Put my clip in a phone frame",
+    "why": "swap the frame, retype the name and the caption, and move when it pulls back on the canvas, without rendering again"
+  }
+}

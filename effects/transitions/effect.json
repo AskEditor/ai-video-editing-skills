@@ -1,0 +1,36 @@
+{
+  "name": "transitions",
+  "title": "Transitions",
+  "line": "A join between two shots: a punch, whip, crossfade, wipe, glitch, light leak, flash or dots, each landing on its cut with a sound of its own",
+  "card": "A whip, wipe or flash between two shots",
+  "do": "add transitions to",
+  "category": "cutting",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add transitions",
+    "add a transition between my clips",
+    "zoom punch on my jump cuts",
+    "whip pan between these clips",
+    "crossfade between the shots",
+    "add a glitch transition",
+    "light leak transitions",
+    "join these clips with transitions"
+  ],
+  "options": {
+    "look": "auto",
+    "joins": "auto",
+    "duration": "auto",
+    "clips": "",
+    "sound": "on",
+    "color": "auto",
+    "events": ""
+  },
+  "type_this": "/video-editing transitions my-edit.mp4 look=whip",
+  "askeditor": {
+    "what": "Put a transition on each join of my video",
+    "why": "each transition stays on its cut: swap the look, move it or change its length without rendering again"
+  }
+}

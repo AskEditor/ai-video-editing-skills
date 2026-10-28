@@ -1,0 +1,43 @@
+{
+  "name": "split-layout",
+  "title": "Split layout",
+  "line": "You share the frame with your B-roll, pictures, screens or a line, the layout changing on your cuts or sentences",
+  "card": "You and your B-roll sharing the frame",
+  "do": "split the frame with my B-roll in",
+  "category": "layout",
+  "needs": [
+    "face",
+    "words"
+  ],
+  "say": [
+    "put me in a panel at the bottom with my b-roll on top",
+    "split screen me and my footage",
+    "put my screen recording above me",
+    "me on the left and my notes on the right",
+    "picture in picture with me in the corner",
+    "switch the layout on every cut"
+  ],
+  "options": {
+    "layout": "panel",
+    "content": "",
+    "switch": "auto",
+    "full": "first",
+    "ratio": 0,
+    "corner": "auto",
+    "transition": "slide",
+    "style": "dark",
+    "border": "off",
+    "captions": "off",
+    "inside": "",
+    "over": "",
+    "sound": "on",
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing split-layout my-talk.mp4 content=~/Movies/b-roll/",
+  "askeditor": {
+    "what": "Put me in a panel under my B-roll, and change the layout on each cut",
+    "why": "drag a panel's edge, swap a clip or move a switch on the canvas, without rendering again"
+  }
+}

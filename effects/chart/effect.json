@@ -1,0 +1,40 @@
+{
+  "name": "chart",
+  "title": "Chart",
+  "line": "A frosted glass card beside your head: a line climbs or bars rise while the number counts up and lands as you say it",
+  "card": "A line climbs as the number lands",
+  "do": "add a counting chart to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add a chart",
+    "add a graph",
+    "show the numbers going up",
+    "add a glass graph",
+    "add a counter",
+    "count up to the number",
+    "show my growth"
+  ],
+  "options": {
+    "type": "line",
+    "values": "auto",
+    "label": "auto",
+    "when": "auto",
+    "position": "auto",
+    "accent": "auto",
+    "prefix": "auto",
+    "suffix": "auto",
+    "style": "glass",
+    "duration": 0,
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing chart my-talk.mp4 values=2K,15K,197K label=Followers",
+  "askeditor": {
+    "what": "Add a Figure with trend graphic where the number is said",
+    "why": "change the numbers, the label or the moment on the canvas without rendering again"
+  }
+}

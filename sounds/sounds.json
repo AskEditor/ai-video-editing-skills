@@ -1,0 +1,82 @@
+{
+ "whoosh": {
+  "file": "whoosh.wav",
+  "seconds": 0.8,
+  "anchor_s": 0.46,
+  "lands": "peak",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -10.34,
+  "for": "a cut, a wipe, a fast move",
+  "what": "Air rushing past and away: a band of noise that swells, brightens at its height and falls off faster than it came, travelling from left to right. For a cut."
+ },
+ "swoosh-in": {
+  "file": "swoosh-in.wav",
+  "seconds": 0.5,
+  "anchor_s": 0.445,
+  "lands": "peak",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -11.82,
+  "for": "something sliding in and landing",
+  "what": "Something arriving: noise that rises in pitch and level to the moment it lands, then stops short, coming in from the right to the middle. For a card or a word sliding into place."
+ },
+ "pop": {
+  "file": "pop.wav",
+  "seconds": 0.14,
+  "anchor_s": 0.0,
+  "lands": "attack",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -7.04,
+  "for": "a card, sticker or word appearing",
+  "what": "A round, quick pop: a short tone that bends up as it starts, with a soft thump under it. For a card, a sticker or a word appearing."
+ },
+ "click": {
+  "file": "click.wav",
+  "seconds": 0.06,
+  "anchor_s": 0.0,
+  "lands": "attack",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -4.47,
+  "for": "a tap or a button press",
+  "what": "A crisp press: a short ping with a woody body and a bright front. For a tap or a button."
+ },
+ "tick": {
+  "file": "tick.wav",
+  "seconds": 0.05,
+  "anchor_s": 0.0,
+  "lands": "attack",
+  "loudest_lufs": -20.43,
+  "peak_dbfs": -1.0,
+  "for": "a step in a list, a key, a clock",
+  "what": "A small, dry tick, higher and shorter than the click: a clock, a key, one step of a list."
+ },
+ "hit": {
+  "file": "hit.wav",
+  "seconds": 0.6,
+  "anchor_s": 0.0,
+  "lands": "attack",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -5.0,
+  "for": "a big word, a slam, a reveal",
+  "what": "An impact with weight: a low boom that drops in pitch, a punch in the middle and a crack on top, with harmonics so it is still felt on a phone's small speaker. For a big word or a reveal."
+ },
+ "riser": {
+  "file": "riser.wav",
+  "seconds": 1.8,
+  "anchor_s": 1.79,
+  "lands": "end",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -11.74,
+  "for": "building into a reveal (it ends on the moment)",
+  "what": "Tension building into a moment: noise and a rising tone climbing three octaves together, widening as they go, cut off on the moment itself. For a reveal: it ends on the frame."
+ },
+ "ding": {
+  "file": "ding.wav",
+  "seconds": 1.6,
+  "anchor_s": 0.0,
+  "lands": "attack",
+  "loudest_lufs": -18.0,
+  "peak_dbfs": -16.17,
+  "for": "a tick on a list, a right answer",
+  "what": "A clear bell: a few partials that ring and fade, the upper ones first, with a slow shimmer. For a tick on a list, a right answer or a number landing."
+ }
+}

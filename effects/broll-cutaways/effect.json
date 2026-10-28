@@ -1,0 +1,39 @@
+{
+  "name": "broll-cutaways",
+  "title": "B-roll cutaways",
+  "line": "Your own B-roll cut in on the words that name it while your voice runs on: full screen, split with you, or you in a corner",
+  "card": "Your footage cut in on the words",
+  "do": "cut my B-roll into",
+  "category": "cutting",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add my b-roll",
+    "cut to my b-roll when I mention it",
+    "show my clips while I talk",
+    "add cutaways",
+    "b-roll on top and me below",
+    "put me in a corner over my b-roll",
+    "cut to the lake when I say lake"
+  ],
+  "options": {
+    "broll": "",
+    "map": "",
+    "mode": "full",
+    "on": "keywords",
+    "duration": "auto",
+    "max_share": 0.5,
+    "transition": "cut",
+    "broll_audio": "mute",
+    "captions": "auto",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing broll-cutaways my-talk.mp4 broll=~/my-broll",
+  "askeditor": {
+    "what": "Cut my B-roll in where I name each thing",
+    "why": "swap a clip, move a cutaway or change the layout on the timeline without rendering again"
+  }
+}

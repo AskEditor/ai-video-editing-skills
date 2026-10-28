@@ -1,0 +1,33 @@
+{
+  "name": "cta-card",
+  "title": "Call to action",
+  "line": "An ending that asks: comment a word, follow, or watch a comment being posted, never over your face",
+  "card": "Ends asking people to comment or follow",
+  "do": "add a call to action to the end of",
+  "category": "graphics",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "add a call to action",
+    "ask them to comment a word",
+    "comment GUIDE at the end",
+    "add a follow button",
+    "add a subscribe button",
+    "end with a CTA"
+  ],
+  "options": {
+    "kind": "auto",
+    "word": "",
+    "line": "",
+    "when": "end",
+    "position": "auto",
+    "accent": "auto",
+    "sound": "on"
+  },
+  "type_this": "/video-editing cta-card my-talk.mp4 word=GUIDE",
+  "askeditor": {
+    "what": "Add a follow card at the end",
+    "why": "change the word, the handle or the moment on the canvas without rendering again"
+  }
+}

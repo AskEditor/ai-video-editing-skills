@@ -1,0 +1,38 @@
+{
+  "name": "quote-card",
+  "title": "Quote card",
+  "line": "A quote, a post or a clipping pops in as you read it out, each word lit as you say it",
+  "card": "A quote lit word by word as you read it",
+  "do": "pop up the quote I read out in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "show the quote as a card",
+    "put what he said on screen",
+    "show the post I'm reading",
+    "make it a newspaper clipping",
+    "add a pull quote",
+    "highlight the words as I read them"
+  ],
+  "options": {
+    "look": "auto",
+    "text": "",
+    "name": "",
+    "source": "",
+    "when": "auto",
+    "hold": 1.2,
+    "position": "auto",
+    "accent": "auto",
+    "captions": "off",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing quote-card my-talk.mp4 text=\"the words you read out\"",
+  "askeditor": {
+    "what": "Add a Quote marks graphic on the line I read out",
+    "why": "retype the quote, move it or change its look on the canvas, without rendering again"
+  }
+}

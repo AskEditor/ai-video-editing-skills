@@ -1,0 +1,37 @@
+{
+  "name": "pictures-above-head",
+  "title": "Pictures above your head",
+  "line": "Your own pictures, logos or proof pop in above or beside your head as you name each one",
+  "card": "Your proof pops in as you name it",
+  "do": "pop my pictures above my head in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "put pictures above my head",
+    "show a picture of each thing I mention",
+    "pop up my photos as I name them",
+    "show the logos of the tools I name",
+    "add my screenshots as proof",
+    "an arc of pictures over my head",
+    "a column of pictures beside me"
+  ],
+  "options": {
+    "pictures": "",
+    "map": "",
+    "layout": "auto",
+    "on": "keywords",
+    "hold": "auto",
+    "size": "auto",
+    "style": "clean",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing pictures-above-head my-talk.mp4 pictures=~/my-pictures",
+  "askeditor": {
+    "what": "Add an Items beside you graphic with my pictures where I name each one",
+    "why": "swap a picture, move the row or change the moment it lands on the canvas without rendering again"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "retro-overlay",
+  "title": "Retro overlay",
+  "line": "Your clip through a camcorder's viewfinder, an editing timeline of your own shots, a tape played back, or film with its burns",
+  "card": "A camcorder, tape or old film look",
+  "do": "give a camcorder look to",
+  "category": "graphics",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "make it look like a camcorder",
+    "add a REC frame",
+    "make it look like an old tape",
+    "give it a VHS look",
+    "add a film burn",
+    "make it look like old film",
+    "show an editing timeline over my video"
+  ],
+  "options": {
+    "look": "camcorder",
+    "date": "auto",
+    "strength": 0.8,
+    "start": "0",
+    "end": "end",
+    "captions": "off",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing retro-overlay my-talk.mp4 look=vhs",
+  "askeditor": {
+    "what": "Give my video a camcorder look",
+    "why": "change the look, its strength and when it starts on the canvas, and see it at once, without rendering again"
+  }
+}

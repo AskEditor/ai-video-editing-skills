@@ -1,0 +1,40 @@
+{
+  "name": "ranked-list",
+  "title": "Ranked list",
+  "line": "Items pop into a numbered list the moment you say each one: a top-five board, a countdown to number one, a rapid run, or numbered tiles in an arc above your head",
+  "card": "Your top five pops in as you say it",
+  "do": "add a ranked list to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person"
+  ],
+  "say": [
+    "make a top 5 list",
+    "put a numbered list on my video",
+    "count down my top five",
+    "pop each item into a list as I say it",
+    "a rapid list of the apps I name",
+    "numbered tiles above my head"
+  ],
+  "options": {
+    "items": "",
+    "look": "board",
+    "title": "",
+    "position": "auto",
+    "style": "solid",
+    "accent": "auto",
+    "hold": 1.0,
+    "leave": 0,
+    "sound": "on",
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing ranked-list my-top-five.mp4",
+  "askeditor": {
+    "what": "Add a Numbered list graphic on the things I list",
+    "why": "retype a row, change its number or move when it lands on the canvas, without rendering again"
+  }
+}

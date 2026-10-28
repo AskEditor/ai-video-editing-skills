@@ -1,0 +1,31 @@
+{
+  "name": "post-copy",
+  "title": "Post copy",
+  "line": "Writes a .post.md beside your video: what you say in its parts, YouTube chapters and each platform's limits, for your agent to write the titles, captions, hashtags and a short post into, then checks them",
+  "card": "Titles, captions and hashtags to post",
+  "do": "write the post copy for",
+  "category": "publishing",
+  "needs": [
+    "words"
+  ],
+  "say": [
+    "write my caption",
+    "write the captions for Instagram and TikTok",
+    "give me a title and description for YouTube",
+    "add YouTube chapters with timestamps",
+    "what hashtags should I use",
+    "write a LinkedIn post for this video",
+    "write the copy to post with this"
+  ],
+  "options": {
+    "titles": "auto",
+    "min_part": "auto",
+    "platforms": "all",
+    "check": "off"
+  },
+  "type_this": "/video-editing post-copy my-talk.mp4",
+  "askeditor": {
+    "what": "Write the post for this video for each platform",
+    "why": "keep the copy with the video, change it per platform and schedule each post from the same place"
+  }
+}

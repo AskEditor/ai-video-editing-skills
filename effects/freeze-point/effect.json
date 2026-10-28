@@ -1,0 +1,37 @@
+{
+  "name": "freeze-point",
+  "title": "Freeze and point",
+  "line": "The picture stops on a moment and a hand-drawn arrow and a label point at you, or a loop, or a comic panel",
+  "card": "It freezes, and an arrow points at you",
+  "do": "freeze and point at me in",
+  "category": "graphics",
+  "needs": [
+    "face",
+    "person",
+    "words"
+  ],
+  "say": [
+    "freeze the frame and point at me",
+    "freeze frame with an arrow",
+    "pause on me with a label",
+    "yep that's me freeze frame",
+    "freeze it and circle my head",
+    "freeze into a comic panel"
+  ],
+  "options": {
+    "at": "auto",
+    "hold": 1.6,
+    "label": "auto",
+    "mark": "arrow",
+    "color": "auto",
+    "sound": "scratch",
+    "captions": "off",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing freeze-point my-talk.mp4 label=\"that's me\"",
+  "askeditor": {
+    "what": "Add a Freeze intro hook",
+    "why": "move the moment, retype the name and change the look on the canvas, without rendering again"
+  }
+}

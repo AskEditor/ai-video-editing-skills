@@ -1,0 +1,38 @@
+{
+  "name": "prompt-box",
+  "title": "Prompt box",
+  "line": "A prompt types itself over your clip, and the edit answers on the same beat",
+  "card": "A prompt types, and the edit answers",
+  "do": "add a prompt that types itself to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "type the prompt on screen",
+    "show me asking for the edit",
+    "a prompt box that makes it moody",
+    "the edit builds itself as I ask",
+    "a chat box that types each edit",
+    "show the command, then the result"
+  ],
+  "options": {
+    "text": "make it moody",
+    "answer": "auto",
+    "when": "auto",
+    "until": "auto",
+    "style": "light",
+    "position": "auto",
+    "speed": 1,
+    "sound": "on",
+    "beat": "auto",
+    "accent": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing prompt-box my-talk.mp4 text=\"make it moody | captions on | big title\"",
+  "askeditor": {
+    "what": "Type my ask on screen in a prompt box, and make the edit as it is sent",
+    "why": "retype a prompt, move the moment it is sent, or swap its answer on the canvas, without rendering again"
+  }
+}

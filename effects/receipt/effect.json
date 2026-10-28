@@ -1,0 +1,31 @@
+{
+  "name": "receipt",
+  "title": "Receipt",
+  "line": "Your list prints out like a till receipt above your head, a line as you say each item, with the prices and a total when you say them",
+  "card": "Your list prints out, prices and total",
+  "do": "print my list as a till receipt in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person"
+  ],
+  "say": [
+    "print my list like a receipt",
+    "add a receipt above my head",
+    "make the things I list print out like a bill",
+    "a receipt with a total of what I spent"
+  ],
+  "options": {
+    "items": "",
+    "title": "",
+    "total": "auto",
+    "position": "auto",
+    "sound": "on"
+  },
+  "type_this": "/video-editing receipt my-list.mp4",
+  "askeditor": {
+    "what": "Add a Fact card graphic with the things I list",
+    "why": "retype a line or a price and move it on the canvas, without rendering again"
+  }
+}

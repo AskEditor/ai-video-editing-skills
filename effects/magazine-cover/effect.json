@@ -1,0 +1,36 @@
+{
+  "name": "magazine-cover",
+  "title": "Magazine cover",
+  "line": "You become a magazine cover: a masthead behind your head and your own lines round you",
+  "card": "You on a cover, its name behind you",
+  "do": "turn me into a magazine cover in",
+  "category": "behind-you",
+  "needs": [
+    "person",
+    "words",
+    "face"
+  ],
+  "say": [
+    "make me a magazine cover",
+    "turn this into a magazine cover",
+    "put me on a magazine cover",
+    "a masthead behind my head",
+    "make me the cover star",
+    "a cover with my words round me"
+  ],
+  "options": {
+    "look": "bold",
+    "title": "auto",
+    "lines": "auto",
+    "when": "auto",
+    "color": "auto",
+    "issue": "auto",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing magazine-cover my-talk.mp4",
+  "askeditor": {
+    "what": "Add a Magazine hook",
+    "why": "retype the masthead and the cover lines, move them and retime the cover on the canvas without rendering again"
+  }
+}

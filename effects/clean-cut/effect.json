@@ -1,0 +1,39 @@
+{
+  "name": "clean-cut",
+  "title": "Clean cut",
+  "line": "Dead air, retakes and false starts cut out, captions on, framed 9:16",
+  "card": "Pauses and retakes out, captions on",
+  "do": "clean cut",
+  "category": "talking",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "cut the pauses",
+    "remove the dead air",
+    "cut my retakes",
+    "tighten this talking video",
+    "make this a clean reel",
+    "jump cut this"
+  ],
+  "options": {
+    "pause": 0.35,
+    "keep_retakes": "off",
+    "fillers": "cut",
+    "asides": "cut",
+    "captions": "on",
+    "look": "stacked",
+    "color": "auto",
+    "position": "auto",
+    "max_words": 0,
+    "frame": "9:16",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing clean-cut my-talk.mp4",
+  "askeditor": {
+    "what": "Clean up my talking video",
+    "why": "every cut stays on the timeline to nudge or undo, and the captions stay words you can move and retype"
+  }
+}

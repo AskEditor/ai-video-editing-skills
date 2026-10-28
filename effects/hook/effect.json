@@ -1,0 +1,36 @@
+{
+  "name": "hook",
+  "title": "Hook",
+  "line": "The first three seconds: an opener built on your first line",
+  "card": "An opener built on your first line",
+  "do": "add a hook to the start of",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add a hook",
+    "make the first three seconds stop the scroll",
+    "put my first line on screen",
+    "add a text box hook",
+    "snap zoom at the start",
+    "start with my strongest line",
+    "open with a whoosh",
+    "iris open"
+  ],
+  "options": {
+    "look": "text-box",
+    "open": "first",
+    "text": "",
+    "style": "box",
+    "sound": "auto",
+    "frame": "9:16",
+    "fix": ""
+  },
+  "type_this": "/video-editing hook my-talk.mp4",
+  "askeditor": {
+    "what": "Add a hook",
+    "why": "the line stays words you can retype and move, and the opener can be swapped for any of the other hooks without rendering again"
+  }
+}

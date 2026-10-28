@@ -1,0 +1,36 @@
+{
+  "name": "stickers",
+  "title": "Stickers",
+  "line": "Stickers that slap on with the word: a stamp, a price tag, a starburst or an emoji-style badge, never on your face",
+  "card": "A price tag or stamp slaps on the word",
+  "do": "slap stickers on",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add stickers",
+    "stamp it",
+    "slap a price tag on when I say the price",
+    "add a starburst on that word",
+    "pop an emoji next to me",
+    "add a sticker on the word"
+  ],
+  "options": {
+    "at": "auto",
+    "kind": "auto",
+    "text": "",
+    "color": "auto",
+    "count": 0,
+    "hold": 1.6,
+    "captions": "off",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing stickers my-talk.mp4 at=\"forty nine dollars\" kind=price",
+  "askeditor": {
+    "what": "Add Emoji pops beside me on the words that matter",
+    "why": "move, swap or retime a sticker on the canvas, without rendering again"
+  }
+}

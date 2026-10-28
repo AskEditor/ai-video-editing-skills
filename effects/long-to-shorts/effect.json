@@ -1,0 +1,42 @@
+{
+  "name": "long-to-shorts",
+  "title": "Long video to shorts",
+  "line": "A long video becomes ranked vertical shorts, each one whole thought with a hook and a close, cut clean and captioned",
+  "card": "One long talk cut into vertical clips",
+  "do": "cut shorts from",
+  "category": "repurposing",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "turn this into shorts",
+    "find the best clips in this video",
+    "make reels from my long video",
+    "cut this podcast into shorts",
+    "give me three clips from this talk",
+    "repurpose this video"
+  ],
+  "options": {
+    "count": 3,
+    "min": 20,
+    "max": 60,
+    "rank": "best",
+    "only": 0,
+    "cuts": "clean",
+    "captions": "on",
+    "loudness": "reels",
+    "look": "stacked",
+    "color": "auto",
+    "position": "auto",
+    "max_words": 0,
+    "frame": "9:16",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing long-to-shorts my-talk.mp4",
+  "askeditor": {
+    "what": "Turn this into a reel",
+    "why": "each short stays a cut on the timeline you can widen or move by a sentence, with its captions as words you can retype"
+  }
+}

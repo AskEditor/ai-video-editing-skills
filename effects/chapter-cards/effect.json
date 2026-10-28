@@ -1,0 +1,34 @@
+{
+  "name": "chapter-cards",
+  "title": "Chapter cards",
+  "line": "Your talk in parts: each part's title lands in the pause before it, and a thin rail along the top fills as the video plays",
+  "card": "Your talk in parts, each with a title",
+  "do": "add chapter cards to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add chapters",
+    "add chapter titles",
+    "split my video into parts",
+    "add a progress bar",
+    "show which part we are on",
+    "put the section titles on screen",
+    "number the parts of my talk"
+  ],
+  "options": {
+    "titles": "auto",
+    "cards": "full",
+    "rail": "on",
+    "look": "bold",
+    "min_part": "auto",
+    "color": "auto"
+  },
+  "type_this": "/video-editing chapter-cards my-talk.mp4",
+  "askeditor": {
+    "what": "Add a part opener before each part of my talk",
+    "why": "retitle a part, move where it begins, or change the look on the canvas without rendering again"
+  }
+}

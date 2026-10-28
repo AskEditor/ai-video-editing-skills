@@ -1,0 +1,40 @@
+{
+  "name": "pictures-behind",
+  "title": "Pictures behind you",
+  "line": "Your own reels, screenshots or headlines piled up, pinned in a wall or flash-cut behind you, landing on your words",
+  "card": "A wall of your screenshots behind you",
+  "do": "put my pictures behind me in",
+  "category": "behind-you",
+  "needs": [
+    "person",
+    "words",
+    "face"
+  ],
+  "say": [
+    "pile my reels up behind me",
+    "put my screenshots behind my head",
+    "a wall of my posts behind me",
+    "flash my headlines behind me on each word",
+    "show my thumbnails stacking up behind me"
+  ],
+  "options": {
+    "mode": "pile",
+    "pictures": "",
+    "headlines": "",
+    "map": "",
+    "on": "auto",
+    "at": "auto",
+    "hold": "auto",
+    "size": "medium",
+    "style": "clean",
+    "move": "on",
+    "sound": "on",
+    "cutout": "careful",
+    "fix": ""
+  },
+  "type_this": "/video-editing pictures-behind my-talk.mp4 pictures=~/my-reels",
+  "askeditor": {
+    "what": "Pile my pictures up behind me as I name them",
+    "why": "swap a picture, move it to another word or change the pile to a wall on the canvas without rendering again"
+  }
+}

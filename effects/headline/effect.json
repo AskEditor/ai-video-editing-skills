@@ -1,0 +1,36 @@
+{
+  "name": "headline",
+  "title": "Headline",
+  "line": "Big type on the line that makes the point, landing as it is said, never over your face",
+  "card": "Big type on the line that makes a point",
+  "do": "put a big headline on",
+  "category": "text",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add a headline",
+    "put the line in big text",
+    "big text on screen",
+    "add a callout",
+    "add a title on that line",
+    "make that line pop"
+  ],
+  "options": {
+    "text": "",
+    "when": "auto",
+    "style": "block",
+    "animation": "auto",
+    "accent": "auto",
+    "size": 1,
+    "duration": 0,
+    "position": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing headline my-talk.mp4 when=\"bigger captions\" style=serif",
+  "askeditor": {
+    "what": "Add a title card on the line that makes the point",
+    "why": "retype, restyle or move the headline on the canvas, and change when it lands, without rendering again"
+  }
+}

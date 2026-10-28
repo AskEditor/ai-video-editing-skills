@@ -1,0 +1,33 @@
+{
+  "name": "reframe",
+  "title": "Reframe",
+  "line": "Landscape or square made vertical, 4:5, square or 16:9, the frame following your face calmly; or every shape at once",
+  "card": "Landscape made vertical, face kept in",
+  "do": "reframe",
+  "category": "camera",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "make this vertical",
+    "make it 9:16",
+    "crop this for Reels",
+    "turn this landscape video into a short",
+    "make a square version",
+    "make it 4:5 for the feed",
+    "make every format",
+    "keep me in frame",
+    "follow whoever is talking"
+  ],
+  "options": {
+    "format": "9:16",
+    "mode": "track",
+    "speaker": "auto",
+    "size": "auto"
+  },
+  "type_this": "/video-editing reframe my-podcast.mp4",
+  "askeditor": {
+    "what": "Make this vertical",
+    "why": "the camera stays keyframes on the timeline: drag a move, change who it follows, or switch shape without rendering again"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "backdrop",
+  "title": "New backdrop",
+  "line": "You cut out and set in a new room: a colour, your pictures changing on each idea, a grid of four, or your screens in depth",
+  "card": "Cut out of your room, set somewhere new",
+  "do": "put a new backdrop behind me in",
+  "category": "behind-you",
+  "needs": [
+    "person",
+    "words",
+    "face"
+  ],
+  "say": [
+    "replace my background",
+    "put me on a plain colour background",
+    "put a picture behind me for each thing I mention",
+    "change the background when I talk about each place",
+    "put my screenshots behind me",
+    "a grid of pictures around me",
+    "remove my background"
+  ],
+  "options": {
+    "mode": "auto",
+    "pictures": "",
+    "at": "auto",
+    "color": "auto",
+    "gradient": "soft",
+    "pattern": "none",
+    "layout": "auto",
+    "transition": "fade",
+    "move": "on",
+    "blur": "auto",
+    "rim": "auto",
+    "shadow": "auto",
+    "match": 0.35,
+    "cutout": "careful",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing backdrop my-talk.mp4 pictures=~/my-pictures",
+  "askeditor": {
+    "what": "Cut me out and put my pictures behind me, one for each idea",
+    "why": "swap a picture, move a moment or change the room on the canvas without rendering again"
+  }
+}

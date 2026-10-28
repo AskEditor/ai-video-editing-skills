@@ -1,0 +1,10 @@
+# Made by setup.sh on each computer
+.venv/
+/models
+# Caches the renderer keeps when a clip's own folder cannot be written
+.cache/
+__pycache__/
+*.pyc
+*.part
+.DS_Store
+/tests/lab

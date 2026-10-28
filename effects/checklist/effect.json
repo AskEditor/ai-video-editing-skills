@@ -1,0 +1,40 @@
+{
+  "name": "checklist",
+  "title": "Checklist",
+  "line": "Steps tick off beside your head as you say them: a tick, a spinner, switches flipping on, a strike-through, or a bar that fills a step at a time",
+  "card": "Steps tick off as you say them",
+  "do": "tick off the steps I say in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person"
+  ],
+  "say": [
+    "add a checklist",
+    "tick off the steps as I say them",
+    "a to-do list that ticks off as I talk",
+    "add switches that flip on as I list them",
+    "a progress bar that fills as I go through the steps",
+    "cross off each step"
+  ],
+  "options": {
+    "items": "",
+    "look": "tick",
+    "title": "",
+    "position": "auto",
+    "style": "solid",
+    "accent": "auto",
+    "hold": 1.0,
+    "leave": 0,
+    "sound": "on",
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing checklist my-steps.mp4",
+  "askeditor": {
+    "what": "Add a Progress props graphic on the steps I list",
+    "why": "retype a step or move its tick on the canvas, without rendering again"
+  }
+}

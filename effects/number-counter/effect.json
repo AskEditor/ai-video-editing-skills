@@ -1,0 +1,37 @@
+{
+  "name": "number-counter",
+  "title": "Number counter",
+  "line": "Every number you say counts up on screen and lands on its word, or a 3-2-1 flip clock counts down above your head",
+  "card": "Every number you say counts up on screen",
+  "do": "count up the numbers I say in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "count up the numbers I say",
+    "add a number counter",
+    "make my numbers roll up",
+    "add an odometer",
+    "flip clock for my numbers",
+    "add a 3 2 1 countdown",
+    "countdown above my head"
+  ],
+  "options": {
+    "style": "roll",
+    "values": "auto",
+    "when": "auto",
+    "label": "auto",
+    "from": 3,
+    "position": "auto",
+    "hold": 1.8,
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing number-counter my-talk.mp4",
+  "askeditor": {
+    "what": "Add a Count up graphic on the number I say",
+    "why": "change the number, its label or the moment on the canvas without rendering again"
+  }
+}

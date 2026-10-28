@@ -1,0 +1,40 @@
+{
+  "name": "spotlight",
+  "title": "Spotlight",
+  "line": "The lights go down: the room goes dark and you stay lit, with your word in neon, an LED sign, golden rays or a beam through haze",
+  "card": "The room goes dark and you stay lit",
+  "do": "put me in a spotlight in",
+  "category": "behind-you",
+  "needs": [
+    "person",
+    "face",
+    "words"
+  ],
+  "say": [
+    "turn the lights down",
+    "spotlight on me",
+    "make the room go dark and keep me lit",
+    "a neon sign behind me",
+    "my word in neon behind my head",
+    "an LED sign behind me",
+    "golden rays behind me",
+    "lights down when I say it"
+  ],
+  "options": {
+    "at": "auto",
+    "until": "end",
+    "dark": 0.8,
+    "look": "dark",
+    "word": "auto",
+    "color": "auto",
+    "sound": "on",
+    "captions": "off",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing spotlight my-talk.mp4 look=neon",
+  "askeditor": {
+    "what": "Add a Neon hook",
+    "why": "change the word, its colour and when the lights go down on the canvas, without rendering again"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "notifications",
+  "title": "Notifications",
+  "line": "Message notifications pop in one after another as you speak, the newest on top, never on your face",
+  "card": "Messages pop in as you speak",
+  "do": "pop message notifications into",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add notifications",
+    "pop up messages as I talk",
+    "show message notifications",
+    "stack notifications above my head",
+    "add DM pop-ups",
+    "make my lines pop in as messages"
+  ],
+  "options": {
+    "items": "",
+    "count": 3,
+    "sender": "auto",
+    "style": "glass",
+    "position": "auto",
+    "most": 3,
+    "accent": "auto",
+    "hold": 2.2,
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing notifications my-talk.mp4 sender=@myhandle",
+  "askeditor": {
+    "what": "Add the Notification hook with my line",
+    "why": "change the words, the sender or the moment on the canvas without rendering again"
+  }
+}

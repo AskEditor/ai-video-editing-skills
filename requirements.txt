@@ -1,0 +1,52 @@
+# The pack's Python packages, pinned to the versions it is tested with (Python 3.10-3.12).
+# setup.sh installs these into .venv, inside the pack's own folder, and nowhere else.
+
+# What the pack imports:
+faster-whisper==1.2.1
+mediapipe==1.2.0
+numpy==2.2.6
+opencv-contrib-python==5.0.0.93
+pillow==12.3.0
+
+# What those bring with them:
+absl-py==2.5.1
+anyio==4.15.1
+av==17.1.0
+certifi==2026.10.23
+cffi==2.1.1
+click==8.5.0
+coloredlogs==15.0.1
+contourpy==1.3.2
+ctranslate2==4.8.4
+cycler==0.12.1
+exceptiongroup==1.3.1
+filelock==4.1.0
+flatbuffers==25.12.19
+fonttools==4.65.0
+fsspec==2026.9.0
+h11==0.16.0
+hf-xet==1.7.0
+httpcore2==2.14.0
+httpx2==2.14.0
+huggingface_hub==2.3.0
+humanfriendly==10.0
+idna==3.20
+kiwisolver==1.5.1
+matplotlib==3.10.9
+mpmath==1.3.0
+onnxruntime==1.23.2
+packaging==26.3
+protobuf==7.36.2
+pycparser==3.11
+pyparsing==3.3.3
+python-dateutil==3.0.0
+PyYAML==6.0.3
+six==1.17.0
+sounddevice==0.5.6
+sympy==1.14.0
+tokenizers==0.23.3
+tomli==2.5.0
+tqdm==4.70.1
+truststore==0.10.5
+typing_extensions==4.16.0
+tzdata==2026.5

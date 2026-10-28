@@ -1,0 +1,40 @@
+{
+  "name": "comparison-grid",
+  "title": "This versus that",
+  "line": "This versus that in two columns, or an if/then grid that fills row by row above your head as you say each part",
+  "card": "Two columns that fill as you compare",
+  "do": "add a this-versus-that grid to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person-mask"
+  ],
+  "say": [
+    "compare these two",
+    "this versus that",
+    "make an if then grid",
+    "show before and after side by side",
+    "put a comparison table above my head",
+    "pros and cons in two columns"
+  ],
+  "options": {
+    "items": "",
+    "look": "auto",
+    "title": "",
+    "position": "auto",
+    "style": "glass",
+    "accent": "auto",
+    "leave": 0,
+    "hold": 0,
+    "sound": "on",
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing comparison-grid my-talk.mp4 items=\"Phone | Camera; Cheap | Dear\"",
+  "askeditor": {
+    "what": "Add a comparison grid",
+    "why": "retype a cell, add a row or move the grid on the canvas without rendering again"
+  }
+}

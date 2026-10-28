@@ -1,0 +1,39 @@
+{
+  "name": "glass-widgets",
+  "title": "Glass widgets",
+  "line": "Frosted glass widgets gather round your head, some of them tucked behind it, each carrying your own figure, name or line",
+  "card": "Glass cards with your numbers round you",
+  "do": "put glass widgets round my head in",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person"
+  ],
+  "say": [
+    "add glass widgets",
+    "glass widgets round my head",
+    "frosted glass cards around me",
+    "a bento of glass tiles",
+    "widgets floating around my head",
+    "glass cards behind my head",
+    "show my stats in glass"
+  ],
+  "options": {
+    "widgets": "auto",
+    "name": "",
+    "layout": "auto",
+    "depth": 0.6,
+    "tone": "auto",
+    "accent": "auto",
+    "when": "auto",
+    "hold": "auto",
+    "sound": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing glass-widgets my-talk.mp4 name=Sam widgets=\"number: 197K followers | note: Shot in one take\"",
+  "askeditor": {
+    "what": "Add glass widgets round my head with my figures and my name",
+    "why": "move, retype or retime each widget on the canvas without rendering again"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "grade",
+  "title": "Colour grade",
+  "line": "A colour look in one word, with skin kept natural: moody, black and white, warm, cool, pop or film",
+  "card": "One-word colour look, skin kept natural",
+  "do": "colour grade",
+  "category": "colour",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "make it moody",
+    "colour grade this",
+    "make it black and white",
+    "give it a film look",
+    "make it warmer",
+    "make the colours pop",
+    "make it look cinematic",
+    "turn it moody when I say moody"
+  ],
+  "options": {
+    "look": "moody",
+    "intensity": 1,
+    "vignette": "auto",
+    "grain": "auto",
+    "start": 0,
+    "end": "end",
+    "fix": ""
+  },
+  "type_this": "/video-editing grade my-talk.mp4 look=film",
+  "askeditor": {
+    "what": "Colour grade my video",
+    "why": "change the look, its strength and where it starts on the canvas, and see it at once, without rendering again"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "words-behind",
+  "title": "Words behind you",
+  "line": "A giant word behind your head, landing on the line it belongs to",
+  "card": "A giant word behind your head",
+  "do": "put a giant word behind me in",
+  "category": "behind-you",
+  "needs": [
+    "person",
+    "words",
+    "face"
+  ],
+  "say": [
+    "put a word behind me",
+    "big text behind my head",
+    "words behind me",
+    "text behind me on the hook",
+    "a giant word behind my head when I say it"
+  ],
+  "options": {
+    "text": "auto",
+    "when": "auto",
+    "font": "condensed",
+    "color": "auto",
+    "size": "auto",
+    "animation": "rise",
+    "hold": "auto",
+    "style": "solid",
+    "frame": "keep",
+    "fix": ""
+  },
+  "type_this": "/video-editing words-behind my-talk.mp4",
+  "askeditor": {
+    "what": "Add a Words behind hook",
+    "why": "retype the word, move it and retime it on the canvas without rendering again"
+  }
+}

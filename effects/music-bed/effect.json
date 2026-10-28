@@ -1,0 +1,32 @@
+{
+  "name": "music-bed",
+  "title": "Music bed",
+  "line": "Your own track under your voice: it dips while you talk, rises in the pauses, and ends when the film does",
+  "card": "Your song dips while you talk",
+  "do": "lay my song under",
+  "category": "sound",
+  "needs": [
+    "words"
+  ],
+  "say": [
+    "add my music under this",
+    "put this song under my voice",
+    "add background music",
+    "make the music duck when I talk",
+    "fit the music to the video",
+    "make the song end when the video ends"
+  ],
+  "options": {
+    "music": "",
+    "level": -6,
+    "duck": 10,
+    "fade": "0.5,1.5",
+    "fit": "auto",
+    "target_lufs": "-14"
+  },
+  "type_this": "/video-editing music-bed my-talk.mp4 music=~/Music/my-song.mp3",
+  "askeditor": {
+    "what": "Add background music",
+    "why": "the music stays its own clip on the timeline: change the track, its level or where it dips without rendering again"
+  }
+}

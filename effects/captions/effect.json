@@ -1,0 +1,33 @@
+{
+  "name": "captions",
+  "title": "Captions",
+  "line": "Word-timed captions in four looks, kept clear of your face",
+  "card": "Every word on screen, clear of your face",
+  "do": "caption",
+  "category": "text",
+  "needs": [
+    "words",
+    "face"
+  ],
+  "say": [
+    "add captions",
+    "add subtitles",
+    "caption this",
+    "put words on screen",
+    "burn in captions"
+  ],
+  "options": {
+    "look": "stacked",
+    "color": "auto",
+    "position": "auto",
+    "max_words": 0,
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing captions my-talk.mp4 look=serif-chip",
+  "askeditor": {
+    "what": "Add captions to my video",
+    "why": "move, restyle and retype any line on the canvas without prompting or rendering again"
+  }
+}

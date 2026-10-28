@@ -1,0 +1,34 @@
+{
+  "name": "sound-effects",
+  "title": "Sound effects",
+  "line": "Our own whoosh, pop, click, hit, riser and ding on every cut, card or word, each on the first frame of its moment",
+  "card": "Whooshes and pops on every cut",
+  "do": "add sound effects to",
+  "category": "sound",
+  "needs": [
+    "words"
+  ],
+  "say": [
+    "add sound effects",
+    "put a whoosh on every cut",
+    "add a pop when each card appears",
+    "add a ding when I say the number",
+    "add sound design",
+    "make the cuts swoosh"
+  ],
+  "options": {
+    "sounds": "",
+    "on": "auto",
+    "kind": "auto",
+    "words": "",
+    "events": "",
+    "level": -9,
+    "variety": 0.3,
+    "fix": ""
+  },
+  "type_this": "/video-editing sound-effects my-edit.mp4",
+  "askeditor": {
+    "what": "Add sound effects to my edit",
+    "why": "each sound stays a clip on the timeline: slide it, swap it or turn it down without rendering again"
+  }
+}

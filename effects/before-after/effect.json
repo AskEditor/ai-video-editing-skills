@@ -1,0 +1,33 @@
+{
+  "name": "before-after",
+  "title": "Before and after",
+  "line": "One wipe across your playing clip: the clip as shot on one side, a look or your edit on the other",
+  "card": "Your clip as shot, wiped into your edit",
+  "do": "make a before and after wipe of",
+  "category": "layout",
+  "needs": [
+    "face"
+  ],
+  "say": [
+    "show a before and after",
+    "before and after of the grade",
+    "wipe from my raw take to the edit",
+    "a slider that swipes across me",
+    "split screen before and after",
+    "show the edit against the original"
+  ],
+  "options": {
+    "after": "moody",
+    "mode": "auto",
+    "direction": "left",
+    "at": 1,
+    "duration": "auto",
+    "labels": "on",
+    "fix": ""
+  },
+  "type_this": "/video-editing before-after my-take.mp4 after=my-edit.mp4",
+  "askeditor": {
+    "what": "Show a before and after of my edit",
+    "why": "move the divider, retime the wipe or change the look on the canvas, without rendering again"
+  }
+}

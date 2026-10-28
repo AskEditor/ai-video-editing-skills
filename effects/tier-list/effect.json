@@ -1,0 +1,39 @@
+{
+  "name": "tier-list",
+  "title": "Tier list",
+  "line": "A tier board above or beside you; each card drops into its row the moment you rank it",
+  "card": "Rank things into rows as you speak",
+  "do": "add a tier list to",
+  "category": "graphics",
+  "needs": [
+    "words",
+    "face",
+    "person"
+  ],
+  "say": [
+    "make a tier list",
+    "rank these in tiers",
+    "add a tier list as I rank things",
+    "put an S A B C D board on my video",
+    "drop each one into its tier when I say it",
+    "tier ranking"
+  ],
+  "options": {
+    "items": "",
+    "tiers": "S,A,B,C,D",
+    "title": "",
+    "position": "auto",
+    "style": "solid",
+    "drop": "fall",
+    "hold": 1.5,
+    "sound": "on",
+    "frame": "keep",
+    "size": "auto",
+    "fix": ""
+  },
+  "type_this": "/video-editing tier-list my-ranking.mp4",
+  "askeditor": {
+    "what": "Add a tier list that fills in as I rank things",
+    "why": "drag a card to another row, retype a name or recolour a tier on the canvas, without rendering again"
+  }
+}
